@@ -1,3 +1,4 @@
+import java.util.Scanner;
 /**
  * Our specialty ElectricPokemon that inherits from our Pokemon class.
  */
@@ -59,7 +60,9 @@ public class ElectricPokemon extends Pokemon {
      * Implement this.
      */
     public boolean attack(final Pokemon opponent) {
+        if (super.attack(opponent)) {
+
+        }
         return false;
     }
-
 }
